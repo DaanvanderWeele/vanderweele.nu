@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoofdpagina</title>
+
+    <style>
+
+
+    </style>
+
+    <script>
+
+
+    </script>
+</head>
+<body>
+<p>Welkom op mijn website</p>   
+
+<img src="WorkingTalentLogo.svg">
+
+<p>Als trainee bij Working Talent neem ik deel aan een intensief leertraject waarbij ik word opgeleid tot gecertificeerd IT-professional. Het traineeship start met een bootcamp, opgesplitst in twee delen. Het eerste deel is gericht op fundamentele IT-kennis, waarin onder andere IT-infrastructuur, modelleren, cloud, security, databases, programmeren, Agile en Scrum worden behandeld.
+    In het tweede deel wordt dieper ingegaan op één van de specialistische uitstroommogelijkheden; Business & IT, Data Analyse, DevOps Cloud en Software Development.
+    Daarnaast biedt het IT-bootcamp ook ruimte om mijzelf te ontwikkelen op persoonlijk vlak, op het gebied van samenwerken, presenteren en gesprekstechnieken.
+    
+    Na het afronden van het IT-bootcamp vervolg ik het traineeship bij een opdrachtgever van Working Talent.</p>
+
+<img src="mijnportret.JPEG" onclick="">
+
+
+<a href="https://www.linkedin.com/in/dmvanderweele/">Dit is de link naar mijn profiel op LinkedIn</a>
+
+
+<p>De knopjes in de tabel hieronder kunnen gebruikt worden om de achtergrondkleur van de pagina te veranderen</p>
+
+<table id="table1">
+    <tr class="tabel">
+        <td class="tabel"><button id="knopGroen" onclick="veranderKleur('green');">Groen</button></td>
+        <td class="tabel"><button id="knopGeel" onclick="veranderKleur('yellow');">Geel</button></td>
+    </tr>
+    <tr class="tabel">
+        <td class="tabel"><button id="knopRood" onclick="veranderKleur('red');">Rood</button></td>
+        <td class="tabel"><button id="knopBlauw" onclick="veranderKleur('blue');">Blauw</button></td>
+    </tr>
+    <tr class="tabel">
+        <td class="tabel"><button id="knopZwart" onclick="veranderKleur('black');">Zwart</button></td>
+        <td class="tabel"><button id="knopWit" onclick="veranderKleur('white');">Wit</button></td>
+    </tr>
+</table>
+
+<script>
+    <!--Functie verandert de kleur van de achtergrond als een van de knopjes in de tabel ingeddrukt wordt.-->
+    function veranderKleur(kleur) {
+        document.body.style.backgroundColor = kleur
+    }
+
+</script>
+</body>
+</html>
